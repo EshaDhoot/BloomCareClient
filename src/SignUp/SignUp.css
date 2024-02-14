@@ -1,0 +1,12 @@
+.container{
+    margin-top: 9%;
+    width: 500px;
+    border: ridge 1.5px white;
+    padding: 100px;
+    
+}
+body{
+    background: #E0EAFC;  
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
+}
