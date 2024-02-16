@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { useCookies } from "react-cookie";
+// import { useCookies } from "react-cookie";
 
 import '../SignUp/SignUp.css';
 
 export default function Login() {
-  const [cookies] = useCookies([]);
+  // const [cookies] = useCookies([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (cookies.jwt) {
-      navigate("/checkuser");
-    }
-  }, [cookies, navigate]);
+  // useEffect(() => {
+  //   if (cookies.jwt) {
+  //     navigate("/checkuser");
+  //   }
+  // }, [cookies, navigate]);
 
   const [inputs, setInputs] = useState({});
   const handleChange = (event) => {
